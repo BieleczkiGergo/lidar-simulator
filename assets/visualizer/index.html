@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidar visualizer</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section id="main">
+        <div id="left-info"></div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+
+        <div id="right-info">
+            
+        </div>
+    </section>
+
+    <section id="data">
+        <div id="map_container">
+            <h2>map</h2>
+            <textarea name="map" id="map"></textarea>
+
+        </div>
+        <div id="measure_container">
+            <h2>measure</h2>
+            <textarea name="measure" id="measure"></textarea>
+
+        </div>
+
+        <div id="path_container">
+            <h2>path</h2>
+            <textarea name="path" id="path"></textarea>
+            
+        </div>
+        
+    </section>
+</body>
+</html>

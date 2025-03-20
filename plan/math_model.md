@@ -37,6 +37,8 @@ In code, the start value will be the smaller one and the end will be the higher
 one, but this should't be the case in the files. The reader will switch them if
 it has to.
 
+Each line can be no longer than 70 characters.
+
 
 ## Data structure
 
